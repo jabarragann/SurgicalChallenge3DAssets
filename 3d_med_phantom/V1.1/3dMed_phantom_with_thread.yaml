@@ -3,109 +3,109 @@
 # Link: https://github.com/WPI-AIM/ambf_addon
 # Generated on: 2023-08-01 17:55:00
 bodies:
-- BODY BlackGround
-- BODY CameraFrame
-- BODY Needle
-- BODY test_colored_cube
-- BODY test_texturer_cube
-- BODY Entry1
-- BODY Entry2
-- BODY Entry3
-- BODY Entry4
-- BODY Exit1
-- BODY Exit2
-- BODY Exit3
-- BODY Exit4
-- BODY phantom_001
-- BODY Thread
-- BODY Thread_001
-- BODY Thread_002
-- BODY Thread_003
-- BODY Thread_004
-- BODY Thread_005
-- BODY Thread_006
-- BODY Thread_007
-- BODY Thread_008
-- BODY Thread_009
-- BODY Thread_010
-- BODY Thread_011
-- BODY Thread_012
-- BODY Thread_013
-- BODY Thread_014
-- BODY Thread_015
-- BODY Thread_016
-- BODY Thread_017
-- BODY Thread_018
-- BODY Thread_019
-- BODY Thread_020
-- BODY Thread_021
-- BODY Thread_022
-- BODY Thread_023
-- BODY Thread_024
-- BODY Thread_025
-- BODY Thread_026
-- BODY Thread_027
-- BODY Thread_028
-- BODY Thread_029
-- BODY Thread_030
-- BODY Thread_031
-- BODY Thread_032
-- BODY Thread_033
-- BODY Thread_034
-- BODY Thread_035
-- BODY Thread_036
-- BODY Thread_037
-- BODY Thread_038
-- BODY Thread_039
+  - BODY BlackGround
+  - BODY CameraFrame
+  - BODY Needle
+  - BODY test_colored_cube
+  - BODY test_texturer_cube
+  - BODY Entry1
+  - BODY Entry2
+  - BODY Entry3
+  - BODY Entry4
+  - BODY Exit1
+  - BODY Exit2
+  - BODY Exit3
+  - BODY Exit4
+  - BODY phantom_001
+  - BODY Thread
+  - BODY Thread_001
+  - BODY Thread_002
+  - BODY Thread_003
+  - BODY Thread_004
+  - BODY Thread_005
+  - BODY Thread_006
+  - BODY Thread_007
+  - BODY Thread_008
+  - BODY Thread_009
+  - BODY Thread_010
+  - BODY Thread_011
+  - BODY Thread_012
+  - BODY Thread_013
+  - BODY Thread_014
+  - BODY Thread_015
+  - BODY Thread_016
+  - BODY Thread_017
+  - BODY Thread_018
+  - BODY Thread_019
+  - BODY Thread_020
+  - BODY Thread_021
+  - BODY Thread_022
+  - BODY Thread_023
+  - BODY Thread_024
+  - BODY Thread_025
+  - BODY Thread_026
+  - BODY Thread_027
+  - BODY Thread_028
+  - BODY Thread_029
+  - BODY Thread_030
+  - BODY Thread_031
+  - BODY Thread_032
+  - BODY Thread_033
+  - BODY Thread_034
+  - BODY Thread_035
+  - BODY Thread_036
+  - BODY Thread_037
+  - BODY Thread_038
+  - BODY Thread_039
 joints:
-- JOINT Needle-Thread
-- JOINT Thread-Thread_001
-- JOINT Thread_001-Thread_002
-- JOINT Thread_002-Thread_003
-- JOINT Thread_003-Thread_004
-- JOINT Thread_004-Thread_005
-- JOINT Thread_005-Thread_006
-- JOINT Thread_006-Thread_007
-- JOINT Thread_007-Thread_008
-- JOINT Thread_008-Thread_009
-- JOINT Thread_009-Thread_010
-- JOINT Thread_010-Thread_011
-- JOINT Thread_011-Thread_012
-- JOINT Thread_012-Thread_013
-- JOINT Thread_013-Thread_014
-- JOINT Thread_014-Thread_015
-- JOINT Thread_015-Thread_016
-- JOINT Thread_016-Thread_017
-- JOINT Thread_017-Thread_018
-- JOINT Thread_018-Thread_019
-- JOINT Thread_019-Thread_020
-- JOINT Thread_020-Thread_021
-- JOINT Thread_021-Thread_022
-- JOINT Thread_022-Thread_023
-- JOINT Thread_023-Thread_024
-- JOINT Thread_024-Thread_025
-- JOINT Thread_025-Thread_026
-- JOINT Thread_026-Thread_027
-- JOINT Thread_027-Thread_028
-- JOINT Thread_028-Thread_029
-- JOINT Thread_029-Thread_030
-- JOINT Thread_030-Thread_031
-- JOINT Thread_031-Thread_032
-- JOINT Thread_032-Thread_033
-- JOINT Thread_033-Thread_034
-- JOINT Thread_034-Thread_035
-- JOINT Thread_035-Thread_036
-- JOINT Thread_036-Thread_037
-- JOINT Thread_037-Thread_038
-- JOINT Thread_038-Thread_039
-- JOINT phantom_001-Entry2
-- JOINT phantom_001-Exit2
-- JOINT phantom_001-Exit1
-- JOINT phantom_001-Exit3
-- JOINT phantom_001-Exit4
-- JOINT phantom_001-Entry1
-- JOINT phantom_001-Entry3
-- JOINT phantom_001-Entry4
+  - JOINT Needle-Thread
+  - JOINT Thread-Thread_001
+  - JOINT Thread_001-Thread_002
+  - JOINT Thread_002-Thread_003
+  - JOINT Thread_003-Thread_004
+  - JOINT Thread_004-Thread_005
+  - JOINT Thread_005-Thread_006
+  - JOINT Thread_006-Thread_007
+  - JOINT Thread_007-Thread_008
+  - JOINT Thread_008-Thread_009
+  - JOINT Thread_009-Thread_010
+  - JOINT Thread_010-Thread_011
+  - JOINT Thread_011-Thread_012
+  - JOINT Thread_012-Thread_013
+  - JOINT Thread_013-Thread_014
+  - JOINT Thread_014-Thread_015
+  - JOINT Thread_015-Thread_016
+  - JOINT Thread_016-Thread_017
+  - JOINT Thread_017-Thread_018
+  - JOINT Thread_018-Thread_019
+  - JOINT Thread_019-Thread_020
+  - JOINT Thread_020-Thread_021
+  - JOINT Thread_021-Thread_022
+  - JOINT Thread_022-Thread_023
+  - JOINT Thread_023-Thread_024
+  - JOINT Thread_024-Thread_025
+  - JOINT Thread_025-Thread_026
+  - JOINT Thread_026-Thread_027
+  - JOINT Thread_027-Thread_028
+  - JOINT Thread_028-Thread_029
+  - JOINT Thread_029-Thread_030
+  - JOINT Thread_030-Thread_031
+  - JOINT Thread_031-Thread_032
+  - JOINT Thread_032-Thread_033
+  - JOINT Thread_033-Thread_034
+  - JOINT Thread_034-Thread_035
+  - JOINT Thread_035-Thread_036
+  - JOINT Thread_036-Thread_037
+  - JOINT Thread_037-Thread_038
+  - JOINT Thread_038-Thread_039
+  - JOINT phantom_001-Entry2
+  - JOINT phantom_001-Exit2
+  - JOINT phantom_001-Exit1
+  - JOINT phantom_001-Exit3
+  - JOINT phantom_001-Exit4
+  - JOINT phantom_001-Entry1
+  - JOINT phantom_001-Entry3
+  - JOINT phantom_001-Entry4
 high resolution path: ./high_res/
 low resolution path: ./low_res/
 ignore inter-collision: false
@@ -152,7 +152,7 @@ BODY BlackGround:
     linear: 0.5
   visible: true
   collision groups: []
-  use material: true 
+  use material: true
   color components:
     ambient:
       level: 1.0
@@ -167,9 +167,9 @@ BODY BlackGround:
     transparency: 1.0
 BODY CameraFrame:
   name: CameraFrame
-  mesh: ''
-  collision mesh: ''
-  collision mesh type: ''
+  mesh: ""
+  collision mesh: ""
+  collision mesh type: ""
   mass: 0.0
   inertia:
     ix: 0.0
@@ -392,67 +392,67 @@ BODY Entry1:
   visible: false
   collision groups: []
   compound collision shape:
-  - name: '1'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: -0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '2'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: 0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '3'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '4'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: -0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  use material: true 
+    - name: "1"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: -0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "2"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: 0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "3"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "4"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: -0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+  use material: False
   color components:
     ambient:
       level: 1.0
@@ -503,67 +503,67 @@ BODY Entry2:
   visible: false
   collision groups: []
   compound collision shape:
-  - name: '1'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: -0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '2'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: 0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '3'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '4'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: -0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  use material: true 
+    - name: "1"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: -0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "2"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: 0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "3"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "4"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: -0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+  use material: false
   color components:
     ambient:
       level: 1.0
@@ -614,67 +614,67 @@ BODY Entry3:
   visible: false
   collision groups: []
   compound collision shape:
-  - name: '1'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: -0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '2'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: 0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '3'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '4'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: -0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  use material: true 
+    - name: "1"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: -0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "2"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: 0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "3"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "4"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: -0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+  use material: false
   color components:
     ambient:
       level: 1.0
@@ -725,67 +725,67 @@ BODY Entry4:
   visible: false
   collision groups: []
   compound collision shape:
-  - name: '1'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: -0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '2'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: 0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '3'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '4'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: -0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  use material: true 
+    - name: "1"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: -0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "2"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: 0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "3"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "4"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: -0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+  use material: false
   color components:
     ambient:
       level: 1.0
@@ -836,67 +836,67 @@ BODY Exit1:
   visible: false
   collision groups: []
   compound collision shape:
-  - name: '1'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: -0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '2'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: 0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '3'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '4'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: -0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  use material: true 
+    - name: "1"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: -0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "2"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: 0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "3"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "4"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: -0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+  use material: false
   color components:
     ambient:
       level: 1.0
@@ -947,67 +947,67 @@ BODY Exit2:
   visible: false
   collision groups: []
   compound collision shape:
-  - name: '1'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: -0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '2'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: 0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '3'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '4'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: -0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  use material: true 
+    - name: "1"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: -0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "2"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: 0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "3"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "4"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: -0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+  use material: false
   color components:
     ambient:
       level: 1.0
@@ -1058,67 +1058,67 @@ BODY Exit3:
   visible: false
   collision groups: []
   compound collision shape:
-  - name: '1'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: -0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '2'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: 0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '3'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '4'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: -0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  use material: true 
+    - name: "1"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: -0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "2"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: 0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "3"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "4"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: -0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+  use material: false
   color components:
     ambient:
       level: 1.0
@@ -1169,67 +1169,67 @@ BODY Exit4:
   visible: false
   collision groups: []
   compound collision shape:
-  - name: '1'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: -0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '2'
-    shape: CAPSULE
-    geometry:
-      axis: X
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.0
-        y: 0.02500000037252903
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '3'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: 0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  - name: '4'
-    shape: CAPSULE
-    geometry:
-      axis: Y
-      height: 0.0599999987
-      radius: 0.0060000001
-    offset:
-      position:
-        x: -0.02500000037252903
-        y: 0.0
-        z: 0.0
-      orientation:
-        r: 0.0
-        p: 0.0
-        y: 0.0
-  use material: true 
+    - name: "1"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: -0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "2"
+      shape: CAPSULE
+      geometry:
+        axis: X
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.0
+          y: 0.02500000037252903
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "3"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: 0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+    - name: "4"
+      shape: CAPSULE
+      geometry:
+        axis: Y
+        height: 0.0599999987
+        radius: 0.0060000001
+      offset:
+        position:
+          x: -0.02500000037252903
+          y: 0.0
+          z: 0.0
+        orientation:
+          r: 0.0
+          p: 0.0
+          y: 0.0
+  use material: false
   color components:
     ambient:
       level: 1.0
