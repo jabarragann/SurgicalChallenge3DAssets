@@ -60,6 +60,7 @@ cameraL:
   publish depth: False
   publish depth resolution: { width: 640, height: 480 }
   # multipass: True
+  mouse control multipliers: { pan: 0.1, rotate: 1.0, scroll: 0.1, arcball: 0.1 }
 
 cameraL2:
   namespace: cameras/
@@ -82,6 +83,7 @@ cameraL2:
   publish image resolution: { width: 640, height: 480 }
   publish depth: False
   publish depth resolution: { width: 640, height: 480 }
+  mouse control multipliers: { pan: 0.1, rotate: 1.0, scroll: 0.1, arcball: 0.1 }
   # multipass: True
   # plugins:
   #   [
@@ -135,6 +137,7 @@ cameraR:
   publish depth: False
   publish depth resolution: { width: 640, height: 480 }
   visible: False
+  mouse control multipliers: { pan: 0.1, rotate: 1.0, scroll: 0.1, arcball: 0.1 }
   # multipass: True
 
 camera3:
