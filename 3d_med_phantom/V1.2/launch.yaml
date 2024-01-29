@@ -6,3 +6,5 @@ input devices config: ./ADF/input_devices/input_devices.yaml
 multibody configs:
   - "ADF/ghosts.yaml" #0
   - "3dMed_phantom_with_thread.yaml" #1
+  - "psm1.yaml" #2
+  - "psm2.yaml" #3
