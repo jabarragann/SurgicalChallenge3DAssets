@@ -7,4 +7,5 @@ multibody configs:
   - "ADF/ghosts.yaml" #0
   - "3d_med_phantom.yaml" #1
   - "new_psm1.yaml" #2
+  - "new_psm2.yaml" #3
      
