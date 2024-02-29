@@ -57,7 +57,7 @@ cameraL:
   publish image interval: 5
   publish image resolution: { width: 640, height: 480 }
   # publish image resolution: { width: 1920, height: 1080 }
-  publish depth: False
+  publish depth: True 
   publish depth resolution: { width: 640, height: 480 }
   # multipass: True
   mouse control multipliers: { pan: 0.1, rotate: 1.0, scroll: 0.1, arcball: 0.1 }
