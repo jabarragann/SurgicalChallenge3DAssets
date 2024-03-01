@@ -1,2 +1,2 @@
 
-ambf_simulator --launch_file launch.yaml -l 0,1,2,3,4,5,7 -p120 -t1 --override_max_comm_freq 120
+ambf_simulator --launch_file launch.yaml -l 0,1,2,3,4,5,6 -p120 -t1 --override_max_comm_freq 120
