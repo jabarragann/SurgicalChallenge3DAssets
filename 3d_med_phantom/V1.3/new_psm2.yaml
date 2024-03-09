@@ -259,6 +259,7 @@ BODY tool_main_insert:
 BODY tool_pitch_link:
   name: tool_pitch_link
   mesh: tool_pitch_link.OBJ
+  mesh remove duplicates: False
   mass: 1.0
   collision margin: 0.001
   scale: 1.0
