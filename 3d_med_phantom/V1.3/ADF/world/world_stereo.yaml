@@ -98,18 +98,18 @@ cameraL2:
       },
     ]
   preprocessing shaders config:
-    /ambf/env/psm2/: 
-      tool roll link: [0, 255, 0]
-      tool pitch link: [0, 245, 0]
-      tool gripper1 link: [0, 235, 0]
-      tool gripper2 link:  [0, 235, 0]
-    /ambf/env/psm1/:
-      tool roll link: [0, 225, 0]
-      tool pitch link: [0, 215, 0]
-      tool gripper1 link: [0, 195, 0]
-      tool gripper2 link: [0, 195, 0]
+    /ambf/env/new_psm2/: 
+      tool_roll_link: [0, 255, 0]
+      tool_pitch_link: [0, 245, 0]
+      gripper_left: [0, 235, 0]
+      gripper_right:  [0, 235, 0]
+    /ambf/env/new_psm1/:
+      tool_roll_link: [0, 225, 0]
+      tool_pitch_link: [0, 215, 0]
+      gripper_left: [0, 195, 0]
+      gripper_right: [0, 195, 0]
     /ambf/env/:
-      Needle: [255, 0, 0] # If namespace is empty, defaults to "/ambf/env/"
+      Needle1: [255, 0, 0] 
 
 cameraR:
   namespace: cameras/

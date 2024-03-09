@@ -6,3 +6,4 @@ low_res/
 *.blend
 blender_dev/
 blender-dev/
+build/
