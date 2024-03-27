@@ -14,11 +14,11 @@ bodies:
 - BODY yaw link
 joints:
 - JOINT base link-yaw link
+- JOINT yaw link-pitch end link
 - JOINT pitch end link-main insertion link
 - JOINT main insertion link-tool roll link
 - JOINT tool roll link-tool pitch link
 - JOINT tool pitch link-tool yaw link
-- JOINT yaw link-pitch end link
 - JOINT tool yaw link-tool gripper left link
 - JOINT tool yaw link-tool gripper right link
 high resolution path: ./high_res/
