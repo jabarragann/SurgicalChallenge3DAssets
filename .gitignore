@@ -7,3 +7,4 @@ low_res/
 blender_dev/
 blender-dev/
 build/
+__pycache__
