@@ -26,7 +26,7 @@ light2:
   direction: { x: 0, y: 0.0, z: -1.0 }
   attenuation: {constant: 0.8, linear: 0.8, quadratic: 0.0}
   spot exponent: 0.9 #Not used in the SRC
-  shadow quality: 5
+  shadow quality: 0
   cutoff angle: 1.6
   parent: BODY CameraFrame
 
@@ -65,7 +65,7 @@ cameraL:
   publish image resolution: *cam_common_pub_img_res 
   publish depth: True
   publish depth resolution: *cam_common_pub_depth_res
-  multipass: False # Set to True to enable shadows
+  multipass: True # Set to True to enable shadows
   mouse control multipliers: { pan: 0.1, rotate: 1.0, scroll: 0.1, arcball: 0.1 }
 
 cameraL2:

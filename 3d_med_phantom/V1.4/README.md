@@ -1,6 +1,12 @@
 # Phantom 1.4 notes
 SRC assets in SI units with new PSM instruments.
 
+## Changelog
+
+- Checkpoint 04: Decimate grippers and remove white textures 
+- Checkpoint 03: Fix collision of grippers. Remove second collision primitive of each finger in the gripper.
+- Checkpoint 01: Add new instruments in the correct orientation
+
 ## Running instructions.
 
 Download the `high_res` and `low_res` folders 
