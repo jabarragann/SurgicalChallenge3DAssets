@@ -8,3 +8,6 @@ Scene contains a single instrument and camera. Included scripts allow to orbit a
 - https://math.stackexchange.com/questions/73237/parametric-equation-of-a-circle-in-3d-space
 - https://www.youtube.com/watch?v=OYgiI5bK4kE&ab_channel=DavidLippman
 - https://demonstrations.wolfram.com/ParametricEquationOfACircleIn3D/
+
+General parametrization of circles.
+- https://personal.math.ubc.ca/~feldman/m263/circle.pdf
