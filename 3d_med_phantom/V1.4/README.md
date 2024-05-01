@@ -3,6 +3,9 @@ SRC assets in SI units with new PSM instruments.
 
 ## Changelog
 
+- Checkpoint 08: Full resolution assets fixed by Jack. Fixs included changing orientation of joint between gripper and tool yaw link, fix collision bodies for the grippers and collision margins.
+    - This assets have the original white textures
+    - They have not been decimated.
 - Checkpoint 04: Decimate grippers and remove white textures. (kept only 15% of vertices)
 - Checkpoint 03: Fix collision of grippers. Remove second collision primitive of each finger in the gripper.
 - Checkpoint 01: Add new instruments in the correct orientation
