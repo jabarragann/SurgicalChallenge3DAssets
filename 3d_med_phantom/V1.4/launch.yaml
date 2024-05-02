@@ -10,3 +10,7 @@ multibody configs:
   - "ADF/sensors_actuators_psm1.yaml" #3
   - "full_new_psm2.yaml" #4
   - "ADF/sensors_actuators_psm2.yaml" #5
+  - "full_simple_psm1.yaml" #6
+  - "ADF/sensors_actuators_psm1_simple.yaml" #7
+  - "full_simple_psm2.yaml" #8
+  - "ADF/sensors_actuators_psm2_simple.yaml" #9
