@@ -1,6 +1,6 @@
 from __future__ import annotations
 from pathlib import Path
-from typing import Callable
+from typing import Any, Callable, Tuple
 import numpy as np
 from ambf_client import Client
 import time
@@ -104,42 +104,72 @@ def play_trajectory(
             after_motion_cb()
 
 
-def init_data_recorder():
-    """In progress"""
-    # from ambf6dpose.DataCollection.SimulatorDataProcessor import SimulatorDataProcessor
-    # from ambf6dpose.DataCollection.BOPSaver.BopSaver import BopSampleSaver
-    # from ambf6dpose.DataCollection.RosClients import SyncRosInterface
+# def init_data_recorder():
+#     """In progress"""
+#     # from ambf6dpose.DataCollection.SimulatorDataProcessor import SimulatorDataProcessor
+#     # from ambf6dpose.DataCollection.BOPSaver.BopSaver import BopSampleSaver
+#     # from ambf6dpose.DataCollection.RosClients import SyncRosInterface
 
-    # ros_client = SyncRosInterface()
-    # samples_generator = SimulatorDataProcessor(ros_client)
+#     # ros_client = SyncRosInterface()
+#     # samples_generator = SimulatorDataProcessor(ros_client)
 
-    # def wait_for_data(client: SyncRosInterface):
-    #     try:
-    #         client.wait_for_data(28)
-    #     except TimeoutError:
-    #         print(
-    #             "ERROR: Timeout exception triggered. ROS message filter did not receive any data.",
-    #             file=sys.stderr,
-    #         )
-    #         sys.exit(1)
+#     # def wait_for_data(client: SyncRosInterface):
+#     #     try:
+#     #         client.wait_for_data(28)
+#     #     except TimeoutError:
+#     #         print(
+#     #             "ERROR: Timeout exception triggered. ROS message filter did not receive any data.",
+#     #             file=sys.stderr,
+#     #         )
+#     #         sys.exit(1)
 
-    # return samples_generator
-    return None
+#     # return samples_generator
+#     return None
 
 
-def gen_data_recorder_cb(path: Path):
+# def gen_data_recorder_cb(path: Path):
 
-    assert path is not None, "recording path cannot be None"
+#     assert path is not None, "recording path cannot be None"
 
-    # samples_generator = init_data_recorder()
+#     # samples_generator = init_data_recorder()
 
-    print(f"recording data to {path}")
+#     print(f"recording data to {path}")
 
-    def callback():
-        print("Recording data...")
+#     def callback():
+#         print("Recording data...")
 
-    return callback
+#     return callback
 
+def setup_rec_callback(scene_id:int, output_dir:Path) -> Tuple[Callable, Any]:
+    from ambf6dpose.DataCollection.BOPSaver.BopSaver import BopSampleSaver
+    from ambf6dpose.DataCollection.RosClients import SyncRosInterface
+    from ambf6dpose.DataCollection.SimulatorDataProcessor import SimulatorDataProcessor
+
+    def wait_for_data(client: SyncRosInterface):
+        try:
+            client.wait_for_data(28)
+        except TimeoutError:
+            print(
+                "ERROR: Timeout exception triggered. ROS message filter did not receive any data.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+    print(scene_id)
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    saver: BopSampleSaver = BopSampleSaver(output_dir, scene_id=scene_id)
+    ros_client = SyncRosInterface()
+    samples_generator = SimulatorDataProcessor(ros_client)
+    wait_for_data(ros_client)
+
+    saver.__enter__()
+
+    def data_record_cb():
+        wait_for_data(samples_generator.simulation_client)
+        data_sample = samples_generator.generate_dataset_sample()
+        saver.save_sample(data_sample)
+    
+    return data_record_cb, saver
 
 @click.command("cli", context_settings={"show_default": True})
 @click.option("--radius", default=0.08, help="Radius of the circular trajectory")
@@ -152,7 +182,8 @@ def gen_data_recorder_cb(path: Path):
     type=click.Path(path_type=Path),
     help="Path to record the data",
 )
-def main(radius: float, num_points: int, plot: bool, record: bool, path: Path):
+@click.option("--scene_id", help="scene_id")
+def main(radius: float, num_points: int, plot: bool, record: bool, path: Path, scene_id:int):
     c = Client("CircularTrajectory")
     c.connect()
     time.sleep(0.4)
@@ -169,14 +200,18 @@ def main(radius: float, num_points: int, plot: bool, record: bool, path: Path):
     if plot:
         plot_3d_traj(trajectory_gen)
     if record:
-        data_rec_cb = gen_data_recorder_cb(path)
+        data_rec_cb, data_saver = setup_rec_callback(scene_id,path)
 
-    play_trajectory(
-        cam_frame_handle,
-        tool_yaw_link_handle,
-        trajectory_gen,
-        after_motion_cb=data_rec_cb,
-    )
+    try:
+        play_trajectory(
+            cam_frame_handle,
+            tool_yaw_link_handle,
+            trajectory_gen,
+            after_motion_cb=data_rec_cb,
+        )
+    finally:
+        if data_rec_cb is not None:
+            data_saver.__exit__()
 
 
 if __name__ == "__main__":
